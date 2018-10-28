@@ -113,7 +113,7 @@ function returnArgumentsArray() {
  */
  function F(a, b) {
  	return a + b;
- }
+ };
 function bindFunction(F, a, b) {
     F = F.bind(null, a, b);
     return F;
